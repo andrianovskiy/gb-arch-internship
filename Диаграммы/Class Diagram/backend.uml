@@ -1,0 +1,1280 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>C:/Users/danil/IdeaProjects/arch-intern/Сервисы проектирование/Spring/src/main/java/com/arch/intern/crm/backend</OriginalElement>
+  <nodes>
+    <node x="1156.4202672676042" y="1692.746782235805">com.arch.intern.crm.backend.order.controller.ProductController</node>
+    <node x="2974.239075991223" y="1959.0092297784292">com.arch.intern.crm.backend.task.controller.WorkFlowController</node>
+    <node x="1800.4595561103474" y="1963.5765089239949">com.arch.intern.crm.backend.task.model.enums.TaskStatus</node>
+    <node x="2669.1965312224957" y="220.82712025236304">com.arch.intern.crm.backend.task.model.Task</node>
+    <node x="372.59036699723595" y="1720.4212210814726">com.arch.intern.crm.backend.client.repository.PersonRepository</node>
+    <node x="2259.982244959962" y="1999.622812780964">com.arch.intern.crm.backend.requests.repository.RequestRepo</node>
+    <node x="6051.264279612063" y="553.6048154404938">com.arch.intern.crm.backend.order.service.CategoryService</node>
+    <node x="4224.241842400778" y="1689.926060644695">com.arch.intern.crm.backend.auth.controller.UserController</node>
+    <node x="2575.6488596735544" y="1167.8368528945552">com.arch.intern.crm.backend.board.service.BoardPresetService</node>
+    <node x="5437.141574746251" y="1747.5281373981416">com.arch.intern.crm.backend.auth.repository.UserRepo</node>
+    <node x="3016.997744219451" y="1080.9481021071842">com.arch.intern.crm.backend.order.service.ProductService</node>
+    <node x="2728.6456023100427" y="1356.5269470600354">com.arch.intern.crm.backend.order.model.dto.ProductDTO</node>
+    <node x="4689.948997716612" y="594.4315591912929">com.arch.intern.crm.backend.client.model.Passport</node>
+    <node x="2824.9821841037574" y="1869.446950356506">com.arch.intern.crm.backend.task.repository.TaskRepo</node>
+    <node x="2328.943483920611" y="1394.084565684063">com.arch.intern.crm.backend.task.model.dto.TaskDTO</node>
+    <node x="4805.777501534316" y="1982.0315771920389">com.arch.intern.crm.backend.client.model.mapper.PersonMapper</node>
+    <node x="4716.680893672268" y="1096.736673177667">com.arch.intern.crm.backend.order.service.CartService</node>
+    <node x="5376.6968982403005" y="823.9280592583813">com.arch.intern.crm.backend.client.service.OrganizationService</node>
+    <node x="5183.344606631803" y="452.95683428469874">com.arch.intern.crm.backend.client.model.Phone</node>
+    <node x="5270.470407295782" y="1351.5896160246175">com.arch.intern.crm.backend.config.ServerConfig</node>
+    <node x="3111.0762108859167" y="2188.408717546867">com.arch.intern.crm.backend.requests.model.enums.RequestStatusType</node>
+    <node x="4431.235211444367" y="1503.5888727778638">com.arch.intern.crm.backend.order.model.dto.CategoryDTO</node>
+    <node x="1791.6402332024402" y="422.95756107694615">com.arch.intern.crm.backend.order.model.Order</node>
+    <node x="2939.4203740531443" y="576.2089641046196">com.arch.intern.crm.backend.task.model.WorkFlow</node>
+    <node x="4169.236986255786" y="640.8948817960969">com.arch.intern.crm.backend.order.model.Product</node>
+    <node x="569.1503701166612" y="1896.4850318860492">com.arch.intern.crm.backend.board.repository.BoardPresetRepo</node>
+    <node x="3238.6055196098787" y="1727.806152713399">com.arch.intern.crm.backend.task.controller.TaskController</node>
+    <node x="6254.409268411145" y="1316.5447860008194">com.arch.intern.crm.backend.order.exception.ItemNotFoundException</node>
+    <node x="5075.5715086634345" y="1016.1853369448365">com.arch.intern.crm.backend.auth.service.UserService</node>
+    <node x="1440.9348098764385" y="570.9436642991511">com.arch.intern.crm.backend.requests.model.RequestStatus</node>
+    <node x="5611.951036216514" y="1532.0504153326299">com.arch.intern.crm.backend.order.exception.ItemIsAlreadyAssignedException</node>
+    <node x="314.7222498808969" y="1482.5266974558876">com.arch.intern.crm.backend.order.controller.CategoryController</node>
+    <node x="1559.7437783710734" y="1715.500904103513">com.arch.intern.crm.backend.order.controller.CartController</node>
+    <node x="2544.988657714466" y="1998.5046003350717">com.arch.intern.crm.backend.client.controller.PersonController</node>
+    <node x="1304.9297498753776" y="2114.989531392459">com.arch.intern.crm.backend.order.repository.OrderRepository</node>
+    <node x="3890.1202283996827" y="590.3280981901376">com.arch.intern.crm.backend.requests.model.RequestStatusLog</node>
+    <node x="3995.2385844627515" y="1371.7677867068282">com.arch.intern.crm.backend.order.model.dto.OrderItemDto</node>
+    <node x="2430.1044098360207" y="794.3058381212796">com.arch.intern.crm.backend.auth.model.Role</node>
+    <node x="-128.2244651652063" y="1546.0370069149149">com.arch.intern.crm.backend.order.repository.CategoryRepository</node>
+    <node x="2171.5533079117886" y="1075.0651119445113">com.arch.intern.crm.backend.order.service.ItemService</node>
+    <node x="3429.069345191266" y="1956.2946989652855">com.arch.intern.crm.backend.requests.model.enums.Resolution</node>
+    <node x="6350.930988312765" y="368.2105591021843">com.arch.intern.crm.backend.notification.service.NotificationService</node>
+    <node x="4278.428081962199" y="1170.2378843751158">com.arch.intern.crm.backend.requests.service.RequestService</node>
+    <node x="5737.038864815961" y="704.5617799707505">com.arch.intern.crm.backend.task.service.TaskService</node>
+    <node x="5026.826017652712" y="4.67016643239856">com.arch.intern.crm.backend.common.abstractmodel.AbstractEntity</node>
+    <node x="1046.061642449402" y="1921.7106290037975">com.arch.intern.crm.backend.order.model.enums.OrderStatus</node>
+    <node x="3769.108047035941" y="1878.2962231762974">com.arch.intern.crm.backend.client.controller.OrganizationController</node>
+    <node x="6735.881532127928" y="1102.2553375234377">com.arch.intern.crm.backend.config.AppConfig</node>
+    <node x="3737.673950060775" y="2108.839039879358">com.arch.intern.crm.backend.BackendApplication</node>
+    <node x="4988.861857680688" y="1753.843386161065">com.arch.intern.crm.backend.notification.controller.NotificationController</node>
+    <node x="3555.2205091965766" y="553.3688451872124">com.arch.intern.crm.backend.requests.model.Request</node>
+    <node x="733.0418406640392" y="1667.733360455101">com.arch.intern.crm.backend.order.controller.ItemController</node>
+    <node x="83.61149902288332" y="1670.459648676605">com.arch.intern.crm.backend.order.repository.ProductRepository</node>
+    <node x="3746.869605038427" y="1432.1311192992844">com.arch.intern.crm.backend.notification.model.dto.NotificationDTO</node>
+    <node x="4440.0215707463685" y="666.7425905487576">com.arch.intern.crm.backend.requests.model.RequestType</node>
+    <node x="785.0375651470945" y="1316.1149177431946">com.arch.intern.crm.backend.client.model.dto.PersonDTO</node>
+    <node x="4592.66115315338" y="1809.7330894287">com.arch.intern.crm.backend.requests.model.mapper.NotificationMapper</node>
+    <node x="2390.6355099176926" y="1838.3012662429694">com.arch.intern.crm.backend.order.controller.CartItemController</node>
+    <node x="6916.421480355696" y="1010.8824120727788">com.arch.intern.crm.backend.client.repository.OrganizationRepository</node>
+    <node x="812.7331760954555" y="2029.3590033506596">com.arch.intern.crm.backend.notification.repository.NotificationRepo</node>
+    <node x="1918.7454663745839" y="1393.3408684092872">com.arch.intern.crm.backend.client.model.dto.OrgatizationDTO</node>
+    <node x="1143.2483508545663" y="1328.942591116813">com.arch.intern.crm.backend.board.model.dto.BoardPresetDTO</node>
+    <node x="3248.8941048137367" y="617.7246873586244">com.arch.intern.crm.backend.order.model.Category</node>
+    <node x="1940.3092989451761" y="1718.1502343125358">com.arch.intern.crm.backend.board.controller.BoardPresetController</node>
+    <node x="5966.34543924293" y="1439.280342379818">com.arch.intern.crm.backend.order.exception.CategoryNotFoundException</node>
+    <node x="4268.710786218057" y="2008.1319931916312">com.arch.intern.crm.backend.client.model.mapper.OrganizationMapper</node>
+    <node x="4731.362221072872" y="1358.9899966221374">com.arch.intern.crm.backend.auth.config.MailConfig</node>
+    <node x="3606.635101372781" y="1712.9072176406305">com.arch.intern.crm.backend.common.util.RedirectInterceptor</node>
+    <node x="5430.023470317336" y="313.17283730131334">com.arch.intern.crm.backend.common.interfeses.CrudService</node>
+    <node x="3841.196085214926" y="1111.8395763597287">com.arch.intern.crm.backend.client.service.PersonService</node>
+    <node x="5201.231405433853" y="1982.3985394656506">com.arch.intern.crm.backend.auth.model.mapper.UserMapper</node>
+    <node x="-92.77673712905107" y="1313.559722313353">com.arch.intern.crm.backend.requests.controller.RequestsController</node>
+    <node x="2996.905298016477" y="1398.5683931342242">com.arch.intern.crm.backend.task.model.dto.WorkFlowDTO</node>
+    <node x="1660.0753575852698" y="1190.5783026587346">com.arch.intern.crm.backend.auth.model.dto.UserDTO</node>
+    <node x="6532.291194814139" y="1297.9176307186283">com.arch.intern.crm.backend.order.exception.CartNotFoundException</node>
+    <node x="1550.7526087445303" y="2006.3404756109462">com.arch.intern.crm.backend.board.model.enums.BoardType</node>
+    <node x="1123.476853572504" y="-14.72959192894109">com.arch.intern.crm.backend.auth.model.User</node>
+    <node x="3424.830494154642" y="1106.0780611273137">com.arch.intern.crm.backend.task.service.WorkFlowService</node>
+    <node x="683.0439992199488" y="792.7990258820506">com.arch.intern.crm.backend.client.model.contractor.Organization</node>
+    <node x="741.3586678644231" y="384.0952869445257">com.arch.intern.crm.backend.client.model.contractor.Contractor</node>
+    <node x="2051.7301612216206" y="2058.1536154442488">com.arch.intern.crm.backend.order.repository.ItemRepository</node>
+    <node x="3340.5991487340702" y="1328.0158910240857">com.arch.intern.crm.backend.requests.model.dto.RequestDTO</node>
+    <node x="2657.364416089096" y="693.8502986238448">com.arch.intern.crm.backend.order.model.OrderItem</node>
+    <node x="436.2546136217545" y="689.8160828443125">com.arch.intern.crm.backend.client.model.contractor.Person</node>
+    <node x="208.64269296340865" y="1109.386509045026">com.arch.intern.crm.backend.common.interfeses.BaseController</node>
+    <node x="2592.6182896099417" y="1677.6724130751188">com.arch.intern.crm.backend.auth.service.MailSender</node>
+    <node x="5464.624603151923" y="1211.7432486555297">com.arch.intern.crm.backend.client.model.ContractorType</node>
+    <node x="5020.593361205227" y="1421.0192246640322">com.arch.intern.crm.backend.order.model.dto.PlainCartDto</node>
+    <node x="2138.345880915307" y="444.05703786912636">com.arch.intern.crm.backend.board.model.BoardPreset</node>
+    <node x="495.8540875269782" y="1220.9456835635576">com.arch.intern.crm.backend.order.model.dto.CartDto</node>
+    <node x="2409.0959481326986" y="450.96331816609893">com.arch.intern.crm.backend.client.model.Email</node>
+    <node x="1752.7055569983768" y="2190.2881639944558">com.arch.intern.crm.backend.task.repository.WorkFlowRepo</node>
+    <node x="1416.4183190737092" y="1426.41461208039">com.arch.intern.crm.backend.common.abstractmodel.AbstractDTO</node>
+    <node x="1168.1775380750232" y="622.0039991330401">com.arch.intern.crm.backend.client.model.ContractorAddress</node>
+    <node x="4936.609726328774" y="566.1197073279001">com.arch.intern.crm.backend.notification.model.Notification</node>
+    <node x="1301.1843049980375" y="1928.7429582974064">com.arch.intern.crm.backend.board.model.enums.BoardView</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="com.arch.intern.crm.backend.task.model.Task" target="com.arch.intern.crm.backend.requests.model.Request" relationship="TO_ONE">
+      <point x="101.5" y="-1.202523630468022E-4" />
+      <point x="2899.146" y="426.827" />
+      <point x="2899.146" y="379.0" />
+      <point x="3679.221" y="379.0" />
+      <point x="4.908034234176739E-4" y="-205.99984518721237" />
+    </edge>
+    <edge source="com.arch.intern.crm.backend.client.service.OrganizationService" target="com.arch.intern.crm.backend.common.interfeses.CrudService" relationship="REALIZATION">
+      <point x="-149.99989824030035" y="-5.925838127041061E-5" />
+      <point x="5354.0" y="862.928" />
+      <point x="5354.0" y="789.0" />
+      <point x="5708.0" y="789.0" />
+      <point x="5708.0" y="407.173" />
+      <point x="118.9995296826637" y="1.6269868666540788E-4" />
+    </edge>
+    <edge source="com.arch.intern.crm.backend.order.model.OrderItem" target="com.arch.intern.crm.backend.order.model.Product" relationship="TO_ONE">
+      <point x="108.5" y="6.858665480774789" />
+      <point x="3216.394" y="873.7089641046196" />
+      <point x="3216.394" y="516.0" />
+      <point x="4265.736986255786" y="516.0" />
+      <point x="0.0" y="-151.0" />
+    </edge>
+    <edge source="com.arch.intern.crm.backend.requests.model.Request" target="com.arch.intern.crm.backend.client.model.ContractorAddress" relationship="TO_ONE">
+      <point x="47.10949080342334" y="206.0" />
+      <point x="3726.33" y="1268.0" />
+      <point x="1915.64" y="1268.0" />
+      <point x="1915.64" y="1082.565" />
+      <point x="1095.0" y="1082.565" />
+      <point x="1095.0" y="806.004" />
+      <point x="-92.99953807502311" y="8.669599083077628E-7" />
+    </edge>
+    <edge source="com.arch.intern.crm.backend.order.model.Product" target="com.arch.intern.crm.backend.common.abstractmodel.AbstractEntity" relationship="GENERALIZATION">
+      <point x="1.3744213902100455E-5" y="151.0" />
+      <point x="4265.737" y="1058.0" />
+      <point x="2627.0" y="1058.0" />
+      <point x="2627.0" y="-37.0" />
+      <point x="5114.826" y="-37.0" />
+      <point x="-1.7652711903792806E-5" y="-184.0" />
+    </edge>
+    <edge source="com.arch.intern.crm.backend.client.model.contractor.Person" target="com.arch.intern.crm.backend.client.model.contractor.Contractor" relationship="GENERALIZATION">
+      <point x="93.0" y="-8.284431248739565E-5" />
+      <point x="653.0" y="851.816" />
+      <point x="653.0" y="546.095" />
+      <point x="-141.49966786442303" y="-2.8694452566924156E-4" />
+    </edge>
+    <edge source="com.arch.intern.crm.backend.order.model.dto.CartDto" target="com.arch.intern.crm.backend.order.model.dto.OrderItemDto" relationship="TO_MANY">
+      <point x="-105.5" y="4.114038749795327" />
+      <point x="282.222" y="1321.059722313353" />
+      <point x="282.222" y="2345.908717546867" />
+      <point x="4187.608047035941" y="2345.908717546867" />
+      <point x="83.8694625731896" y="129.0" />
+    </edge>
+    <edge source="com.arch.intern.crm.backend.requests.controller.RequestsController" target="com.arch.intern.crm.backend.requests.service.RequestService" relationship="TO_ONE">
+      <point x="-173.5" y="0.0" />
+      <point x="-164.7244651652063" y="1397.559722313353" />
+      <point x="-164.7244651652063" y="2324.908717546867" />
+      <point x="5973.84543924293" y="2324.908717546867" />
+      <point x="5973.84543924293" y="1939.343386161065" />
+      <point x="4961.161" y="1939.343386161065" />
+      <point x="4961.161" y="1289.0" />
+      <point x="4550.235000000001" y="1289.0" />
+      <point x="134.80691803780155" y="39.0" />
+    </edge>
+    <edge source="com.arch.intern.crm.backend.client.model.dto.OrgatizationDTO" target="com.arch.intern.crm.backend.client.model.Phone" relationship="TO_MANY">
+      <point x="14.999533625416007" y="-116.99986840928727" />
+      <point x="2075.245" y="-67.0" />
+      <point x="5291.345" y="-67.0" />
+      <point x="15.000393368197365" y="-139.99983428469875" />
+    </edge>
+    <edge source="com.arch.intern.crm.backend.client.model.ContractorAddress" target="com.arch.intern.crm.backend.common.abstractmodel.AbstractEntity" relationship="GENERALIZATION">
+      <point x="4.6192497666197596E-4" y="184.0" />
+      <point x="1261.1779999999999" y="1058.0" />
+      <point x="2627.0" y="1058.0" />
+      <point x="2627.0" y="-37.0" />
+      <point x="5114.826" y="-37.0" />
+      <point x="-1.7652711903792806E-5" y="-184.0" />
+    </edge>
+    <edge source="com.arch.intern.crm.backend.order.controller.CategoryController" target="com.arch.intern.crm.backend.order.service.CategoryService" relationship="TO_ONE">
+      <point x="53.86811711633902" y="84.0" />
+      <point x="547.590366997236" y="2356.408717546867" />
+      <point x="7145.421480355696" y="2356.408717546867" />
+      <point x="7145.421480355696" y="605.1048154404938" />
+      <point x="139.5" y="-10.5" />
+    </edge>
+    <edge source="com.arch.intern.crm.backend.task.controller.TaskController" target="com.arch.intern.crm.backend.common.interfeses.BaseController" relationship="REALIZATION">
+      <point x="-69.50651960987852" y="-84.0" />
+      <point x="3323.099" y="1309.0" />
+      <point x="1887.0" y="1309.0" />
+      <point x="1887.0" y="1904.0" />
+      <point x="1120.0" y="1904.0" />
+      <point x="1120.0" y="1181.387" />
+      <point x="113.5" y="4.909549738840724E-4" />
+    </edge>
+    <edge source="com.arch.intern.crm.backend.client.controller.PersonController" target="com.arch.intern.crm.backend.client.service.PersonService" relationship="TO_ONE">
+      <point x="146.99352638929122" y="-84.0" />
+      <point x="2857.9821841037574" y="1941.446950356506" />
+      <point x="3580.606" y="1941.446950356506" />
+      <point x="3580.606" y="1696.172" />
+      <point x="3969.196085214926" y="1696.172" />
+      <point x="-5.0" y="39.0" />
+    </edge>
+    <edge source="com.arch.intern.crm.backend.board.model.dto.BoardPresetDTO" target="com.arch.intern.crm.backend.board.model.enums.BoardView" relationship="TO_ONE">
+      <point x="83.99964914543375" y="4.088831869921705E-4" />
+      <point x="1348.0" y="1467.943" />
+      <point x="1348.0" y="1589.915" />
+      <point x="1516.92" y="1589.915" />
+      <point x="1516.92" y="1988.84" />
+      <point x="94.49969500196244" y="-0.9029582974064851" />
+    </edge>
+    <edge source="com.arch.intern.crm.backend.task.model.Task" target="com.arch.intern.crm.backend.common.abstractmodel.AbstractEntity" relationship="GENERALIZATION">
+      <point x="-101.49953122249599" y="-1.202523630468022E-4" />
+      <point x="2627.0" y="426.827" />
+      <point x="2627.0" y="-37.0" />
+      <point x="5114.826" y="-37.0" />
+      <point x="-1.7652711903792806E-5" y="-184.0" />
+    </edge>
+    <edge source="com.arch.intern.crm.backend.task.service.WorkFlowService" target="com.arch.intern.crm.backend.common.interfeses.CrudService" relationship="REALIZATION">
+      <point x="-4.941546421832754E-4" y="-39.0" />
+      <point x="3566.83" y="1078.0" />
+      <point x="5044.610000000001" y="1078.0" />
+      <point x="5044.610000000001" y="998.685" />
+      <point x="5354.0" y="998.685" />
+      <point x="5354.0" y="789.0" />
+      <point x="5708.0" y="789.0" />
+      <point x="5708.0" y="407.173" />
+      <point x="118.9995296826637" y="1.6269868666540788E-4" />
+    </edge>
+    <edge source="com.arch.intern.crm.backend.client.model.contractor.Contractor" target="com.arch.intern.crm.backend.client.model.ContractorType" relationship="TO_ONE">
+      <point x="141.5" y="14.99971305547433" />
+      <point x="1060.0" y="561.095" />
+      <point x="1060.0" y="-82.0" />
+      <point x="6662.431" y="-82.0" />
+      <point x="6662.431" y="1272.743" />
+      <point x="106.5" y="-2.4865552973096783E-4" />
+    </edge>
+    <edge source="com.arch.intern.crm.backend.client.model.dto.OrgatizationDTO" target="com.arch.intern.crm.backend.client.model.ContractorAddress" relationship="TO_MANY">
+      <point x="-141.5" y="-107.7628684092872" />
+      <point x="1849.244" y="1402.578" />
+      <point x="1849.244" y="1268.0" />
+      <point x="1915.64" y="1268.0" />
+      <point x="1915.64" y="1082.565" />
+      <point x="1095.0" y="1082.565" />
+      <point x="1095.0" y="806.004" />
+      <point x="-92.99953807502311" y="8.669599083077628E-7" />
+    </edge>
+    <edge source="com.arch.intern.crm.backend.client.controller.OrganizationController" target="com.arch.intern.crm.backend.client.model.mapper.OrganizationMapper" relationship="TO_ONE">
+      <point x="197.5" y="76.5" />
+      <point x="-172.5" y="-7.335770015333765" />
+    </edge>
+    <edge source="com.arch.intern.crm.backend.client.model.dto.OrgatizationDTO" target="com.arch.intern.crm.backend.client.model.Email" relationship="TO_MANY">
+      <point x="-4.663745839934563E-4" y="-116.99986840928727" />
+      <point x="2060.245" y="1132.0" />
+      <point x="2057.14" y="1132.0" />
+      <point x="2057.14" y="405.458" />
+      <point x="2502.096" y="405.458" />
+      <point x="5.1867301408492494E-5" y="-118.0" />
+    </edge>
+    <edge source="com.arch.intern.crm.backend.auth.service.UserService" target="com.arch.intern.crm.backend.auth.service.MailSender" relationship="TO_ONE">
+      <point x="127.0" y="-22.8029248720577" />
+      <point x="6228.84543924293" y="1032.3824120727788" />
+      <point x="6228.84543924293" y="2204.339039879358" />
+      <point x="3679.569345191266" y="2204.339039879358" />
+      <point x="3679.569345191266" y="1915.946950356506" />
+      <point x="3079.405298016477" y="1915.946950356506" />
+      <point x="3079.405298016477" y="1742.6724130751188" />
+      <point x="172.0" y="15.0" />
+    </edge>
+    <edge source="com.arch.intern.crm.backend.client.service.PersonService" target="com.arch.intern.crm.backend.common.interfeses.CrudService" relationship="REALIZATION">
+      <point x="-8.521492554791621E-5" y="-38.99957635972851" />
+      <point x="3974.196" y="1078.0" />
+      <point x="5044.610000000001" y="1078.0" />
+      <point x="5044.610000000001" y="998.685" />
+      <point x="5354.0" y="998.685" />
+      <point x="5354.0" y="789.0" />
+      <point x="5708.0" y="789.0" />
+      <point x="5708.0" y="407.173" />
+      <point x="118.9995296826637" y="1.6269868666540788E-4" />
+    </edge>
+    <edge source="com.arch.intern.crm.backend.client.controller.OrganizationController" target="com.arch.intern.crm.backend.client.service.OrganizationService" relationship="TO_ONE">
+      <point x="0.0" y="84.0" />
+      <point x="3966.608047035941" y="2131.339039879358" />
+      <point x="6488.909268411145" y="2131.339039879358" />
+      <point x="6488.909268411145" y="877.9280592583813" />
+      <point x="150.0" y="15.0" />
+    </edge>
+    <edge source="com.arch.intern.crm.backend.board.model.BoardPreset" target="com.arch.intern.crm.backend.board.model.enums.BoardType" relationship="TO_ONE">
+      <point x="1.1908469286936452E-4" y="161.99996213087366" />
+      <point x="2231.346" y="1000.806" />
+      <point x="1605.0" y="1000.806" />
+      <point x="1605.0" y="1589.915" />
+      <point x="1533.253" y="1589.915" />
+      <point x="1533.253" y="2075.859" />
+      <point x="-94.4996087445304" y="8.51852438905371" />
+    </edge>
+    <edge source="com.arch.intern.crm.backend.client.model.contractor.Contractor" target="com.arch.intern.crm.backend.common.abstractmodel.AbstractEntity" relationship="GENERALIZATION">
+      <point x="9.641332135576931" y="161.99971305547433" />
+      <point x="892.5" y="1058.0" />
+      <point x="2627.0" y="1058.0" />
+      <point x="2627.0" y="-37.0" />
+      <point x="5114.826" y="-37.0" />
+      <point x="-1.7652711903792806E-5" y="-184.0" />
+    </edge>
+    <edge source="com.arch.intern.crm.backend.board.controller.BoardPresetController" target="com.arch.intern.crm.backend.board.service.BoardPresetService" relationship="TO_ONE">
+      <point x="83.93616742940776" y="-84.0" />
+      <point x="2219.245466374584" y="1216.5651119445113" />
+      <point x="-147.5" y="9.728259049956023" />
+    </edge>
+    <edge source="com.arch.intern.crm.backend.order.controller.CartController" target="com.arch.intern.crm.backend.order.service.CartService" relationship="TO_ONE">
+      <point x="2.2162892651067523E-4" y="-83.99990410351302" />
+      <point x="1708.244" y="1695.0" />
+      <point x="2534.943" y="1695.0" />
+      <point x="2534.943" y="1655.085" />
+      <point x="2939.982" y="1655.085" />
+      <point x="2939.982" y="1670.672" />
+      <point x="4718.362" y="1670.672" />
+      <point x="-136.31889367226813" y="84.0" />
+    </edge>
+    <edge source="com.arch.intern.crm.backend.auth.service.MailSender" target="com.arch.intern.crm.backend.auth.config.MailConfig" relationship="TO_ONE">
+      <point x="172.0" y="-12.866260361719924" />
+      <point x="3574.606" y="1714.806152713399" />
+      <point x="3574.606" y="1833.9072176406305" />
+      <point x="4138.2385844627515" y="1833.9072176406305" />
+      <point x="4138.2385844627515" y="1642.768" />
+      <point x="-97.5" y="111.77800337786266" />
+    </edge>
+    <edge source="com.arch.intern.crm.backend.order.model.dto.CategoryDTO" target="com.arch.intern.crm.backend.common.abstractmodel.AbstractDTO" relationship="GENERALIZATION">
+      <point x="-2.1144436686881818E-4" y="-62.99987277786386" />
+      <point x="4535.235000000001" y="1289.0" />
+      <point x="1872.0" y="1289.0" />
+      <point x="1872.0" y="1673.0" />
+      <point x="1483.4180000000001" y="1673.0" />
+      <point x="-3.190737090790208E-4" y="73.0" />
+    </edge>
+    <edge source="com.arch.intern.crm.backend.order.service.CartService" target="com.arch.intern.crm.backend.common.interfeses.CrudService" relationship="REALIZATION">
+      <point x="1.0632773137331242E-4" y="-83.99967317766686" />
+      <point x="4854.6810000000005" y="1078.0" />
+      <point x="5044.610000000001" y="1078.0" />
+      <point x="5044.610000000001" y="998.685" />
+      <point x="5354.0" y="998.685" />
+      <point x="5354.0" y="789.0" />
+      <point x="5708.0" y="789.0" />
+      <point x="5708.0" y="407.173" />
+      <point x="118.9995296826637" y="1.6269868666540788E-4" />
+    </edge>
+    <edge source="com.arch.intern.crm.backend.task.model.WorkFlow" target="com.arch.intern.crm.backend.board.model.BoardPreset" relationship="TO_MANY">
+      <point x="-15.000374053144242" y="140.0" />
+      <point x="3032.42" y="957.869" />
+      <point x="2959.0" y="957.869" />
+      <point x="2959.0" y="1107.065" />
+      <point x="2583.604" y="1107.065" />
+      <point x="2583.604" y="719.463" />
+      <point x="93.0" y="113.4059621308736" />
+    </edge>
+    <edge source="com.arch.intern.crm.backend.common.interfeses.BaseController" target="com.arch.intern.crm.backend.common.abstractmodel.AbstractDTO" relationship="DEPENDENCY">
+      <point x="113.5" y="16.69179361370857" />
+      <point x="1483.4183190737092" y="1198.0783026587346" />
+      <point x="0.0" y="-73.0" />
+    </edge>
+    <edge source="com.arch.intern.crm.backend.client.model.contractor.Contractor" target="com.arch.intern.crm.backend.client.model.Email" relationship="TO_MANY">
+      <point x="24.64133213557693" y="161.99971305547433" />
+      <point x="907.5" y="1132.0" />
+      <point x="2057.14" y="1132.0" />
+      <point x="2057.14" y="405.458" />
+      <point x="2502.096" y="405.458" />
+      <point x="5.1867301408492494E-5" y="-118.0" />
+    </edge>
+    <edge source="com.arch.intern.crm.backend.order.controller.ItemController" target="com.arch.intern.crm.backend.order.service.ItemService" relationship="TO_ONE">
+      <point x="-147.00384066403922" y="-84.0" />
+      <point x="767.538" y="1258.446" />
+      <point x="892.5" y="1258.446" />
+      <point x="892.5" y="1100.0" />
+      <point x="2090.245" y="1100.0" />
+      <point x="2090.245" y="1132.0" />
+      <point x="-143.0" y="-5.065111944511273" />
+    </edge>
+    <edge source="com.arch.intern.crm.backend.client.controller.OrganizationController" target="com.arch.intern.crm.backend.common.interfeses.BaseController" relationship="REALIZATION">
+      <point x="197.49995296405905" y="-2.2317629736789968E-4" />
+      <point x="4946.161" y="1962.296" />
+      <point x="4946.161" y="1309.0" />
+      <point x="1887.0" y="1309.0" />
+      <point x="1887.0" y="1904.0" />
+      <point x="1120.0" y="1904.0" />
+      <point x="1120.0" y="1181.387" />
+      <point x="113.5" y="4.909549738840724E-4" />
+    </edge>
+    <edge source="com.arch.intern.crm.backend.order.service.CartService" target="com.arch.intern.crm.backend.order.exception.ItemIsAlreadyAssignedException" relationship="CREATE">
+      <point x="138.0" y="38.506575477862725" />
+      <point x="5421.970407295782" y="1219.2432486555297" />
+      <point x="5421.970407295782" y="1559.0504153326299" />
+      <point x="-147.0" y="0.0" />
+    </edge>
+    <edge source="com.arch.intern.crm.backend.order.model.Category" target="com.arch.intern.crm.backend.common.abstractmodel.AbstractEntity" relationship="GENERALIZATION">
+      <point x="-1.0481373692527995E-4" y="129.0" />
+      <point x="3352.894" y="1058.0" />
+      <point x="2627.0" y="1058.0" />
+      <point x="2627.0" y="-37.0" />
+      <point x="5114.826" y="-37.0" />
+      <point x="-1.7652711903792806E-5" y="-184.0" />
+    </edge>
+    <edge source="com.arch.intern.crm.backend.client.model.dto.PersonDTO" target="com.arch.intern.crm.backend.common.abstractmodel.AbstractDTO" relationship="GENERALIZATION">
+      <point x="4.34852905527805E-4" y="117.0" />
+      <point x="926.538" y="1624.443" />
+      <point x="1212.248" y="1624.443" />
+      <point x="1212.248" y="1673.0" />
+      <point x="1483.4180000000001" y="1673.0" />
+      <point x="-3.190737090790208E-4" y="73.0" />
+    </edge>
+    <edge source="com.arch.intern.crm.backend.client.model.Passport" target="com.arch.intern.crm.backend.common.abstractmodel.AbstractEntity" relationship="GENERALIZATION">
+      <point x="2.283388312207535E-6" y="206.0" />
+      <point x="4782.9490000000005" y="1058.0" />
+      <point x="2627.0" y="1058.0" />
+      <point x="2627.0" y="-37.0" />
+      <point x="5114.826" y="-37.0" />
+      <point x="-1.7652711903792806E-5" y="-184.0" />
+    </edge>
+    <edge source="com.arch.intern.crm.backend.order.service.ProductService" target="com.arch.intern.crm.backend.order.exception.ItemNotFoundException" relationship="CREATE">
+      <point x="19.92225578054922" y="-62.0" />
+      <point x="3172.92" y="531.0" />
+      <point x="5140.11" y="531.0" />
+      <point x="5140.11" y="949.428" />
+      <point x="6362.909" y="949.428" />
+      <point x="-2.6841114504350116E-4" y="-26.999786000819313" />
+    </edge>
+    <edge source="com.arch.intern.crm.backend.requests.controller.RequestsController" target="com.arch.intern.crm.backend.common.interfeses.BaseController" relationship="REALIZATION">
+      <point x="173.49973712905103" y="2.776866469957895E-4" />
+      <point x="297.222" y="1397.56" />
+      <point x="297.222" y="2168.0" />
+      <point x="795.233" y="2168.0" />
+      <point x="795.233" y="1904.0" />
+      <point x="1120.0" y="1904.0" />
+      <point x="1120.0" y="1181.387" />
+      <point x="113.5" y="4.909549738840724E-4" />
+    </edge>
+    <edge source="com.arch.intern.crm.backend.auth.model.dto.UserDTO" target="com.arch.intern.crm.backend.common.abstractmodel.AbstractDTO" relationship="GENERALIZATION">
+      <point x="81.99964241473026" y="-3.0265873465396E-4" />
+      <point x="1872.0" y="1417.578" />
+      <point x="1872.0" y="1673.0" />
+      <point x="1483.4180000000001" y="1673.0" />
+      <point x="-3.190737090790208E-4" y="73.0" />
+    </edge>
+    <edge source="com.arch.intern.crm.backend.task.service.TaskService" target="com.arch.intern.crm.backend.task.repository.TaskRepo" relationship="TO_ONE">
+      <point x="127.0" y="-10.5" />
+      <point x="6895.881532127928" y="733.0617799707505" />
+      <point x="6895.881532127928" y="2263.339039879358" />
+      <point x="3385.239075991223" y="2263.339039879358" />
+      <point x="3385.239075991223" y="1926.446950356506" />
+      <point x="2880.9821841037574" y="1926.446950356506" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="com.arch.intern.crm.backend.requests.model.RequestStatusLog" target="com.arch.intern.crm.backend.requests.model.enums.Resolution" relationship="TO_ONE">
+      <point x="14.999771600317217" y="183.99990180986242" />
+      <point x="4004.62" y="989.0" />
+      <point x="3407.33" y="989.0" />
+      <point x="3407.33" y="1238.337" />
+      <point x="3658.0" y="1238.337" />
+      <point x="3658.0" y="1685.172" />
+      <point x="3564.106" y="1685.172" />
+      <point x="41.036654808734056" y="-49.99969896528546" />
+    </edge>
+    <edge source="com.arch.intern.crm.backend.client.model.dto.OrgatizationDTO" target="com.arch.intern.crm.backend.client.model.ContractorType" relationship="TO_ONE">
+      <point x="-141.5" y="-10.499868409287274" />
+      <point x="1837.075" y="1499.841" />
+      <point x="1837.075" y="1167.5" />
+      <point x="1060.0" y="1167.5" />
+      <point x="1060.0" y="-82.0" />
+      <point x="6662.431" y="-82.0" />
+      <point x="6662.431" y="1272.743" />
+      <point x="106.5" y="-2.4865552973096783E-4" />
+    </edge>
+    <edge source="com.arch.intern.crm.backend.task.model.Task" target="com.arch.intern.crm.backend.notification.model.Notification" relationship="TO_MANY">
+      <point x="101.5" y="14.999879747636953" />
+      <point x="2899.146" y="441.827" />
+      <point x="2899.146" y="479.0" />
+      <point x="5029.61" y="479.0" />
+      <point x="2.7367122584109893E-4" y="-139.99970732790007" />
+    </edge>
+    <edge source="com.arch.intern.crm.backend.notification.model.dto.NotificationDTO" target="com.arch.intern.crm.backend.common.abstractmodel.AbstractDTO" relationship="GENERALIZATION">
+      <point x="3.949615729652578E-4" y="-95.0" />
+      <point x="3828.37" y="1289.0" />
+      <point x="1872.0" y="1289.0" />
+      <point x="1872.0" y="1673.0" />
+      <point x="1483.4180000000001" y="1673.0" />
+      <point x="-3.190737090790208E-4" y="73.0" />
+    </edge>
+    <edge source="com.arch.intern.crm.backend.order.service.ItemService" target="com.arch.intern.crm.backend.common.interfeses.CrudService" relationship="REALIZATION">
+      <point x="142.9996920882113" y="-1.1194451121809834E-4" />
+      <point x="2914.1459999999997" y="1137.065" />
+      <point x="2914.1459999999997" y="1033.0" />
+      <point x="5044.610000000001" y="1033.0" />
+      <point x="5044.610000000001" y="998.685" />
+      <point x="5354.0" y="998.685" />
+      <point x="5354.0" y="789.0" />
+      <point x="5708.0" y="789.0" />
+      <point x="5708.0" y="407.173" />
+      <point x="118.9995296826637" y="1.6269868666540788E-4" />
+    </edge>
+    <edge source="com.arch.intern.crm.backend.order.controller.ProductController" target="com.arch.intern.crm.backend.common.interfeses.BaseController" relationship="REALIZATION">
+      <point x="-171.5" y="2.1776419498564792E-4" />
+      <point x="1120.0" y="1776.747" />
+      <point x="1120.0" y="1181.387" />
+      <point x="113.5" y="4.909549738840724E-4" />
+    </edge>
+    <edge source="com.arch.intern.crm.backend.board.model.dto.BoardPresetDTO" target="com.arch.intern.crm.backend.common.abstractmodel.AbstractDTO" relationship="GENERALIZATION">
+      <point x="-3.5085456624983635E-4" y="139.0" />
+      <point x="1227.248" y="1673.0" />
+      <point x="1483.4180000000001" y="1673.0" />
+      <point x="-3.190737090790208E-4" y="73.0" />
+    </edge>
+    <edge source="com.arch.intern.crm.backend.auth.model.Role" target="com.arch.intern.crm.backend.common.abstractmodel.AbstractEntity" relationship="GENERALIZATION">
+      <point x="67.99959016397906" y="1.6187872040518414E-4" />
+      <point x="2627.0" y="901.306" />
+      <point x="2627.0" y="-37.0" />
+      <point x="5114.826" y="-37.0" />
+      <point x="-1.7652711903792806E-5" y="-184.0" />
+    </edge>
+    <edge source="com.arch.intern.crm.backend.auth.model.dto.UserDTO" target="com.arch.intern.crm.backend.auth.model.Role" relationship="TO_MANY">
+      <point x="-3.575852697395021E-4" y="-227.0" />
+      <point x="1742.075" y="1034.0" />
+      <point x="2498.104" y="1034.0" />
+      <point x="-4.0983602093547233E-4" y="107.0" />
+    </edge>
+    <edge source="com.arch.intern.crm.backend.common.interfeses.CrudService" target="com.arch.intern.crm.backend.common.abstractmodel.AbstractEntity" relationship="DEPENDENCY">
+      <point x="-119.0" y="-42.00267086891478" />
+      <point x="88.0" y="176.5" />
+    </edge>
+    <edge source="com.arch.intern.crm.backend.board.model.dto.BoardPresetDTO" target="com.arch.intern.crm.backend.board.model.enums.BoardType" relationship="TO_ONE">
+      <point x="83.99964914543375" y="-59.02759111681303" />
+      <point x="1605.0" y="1408.915" />
+      <point x="1605.0" y="1589.915" />
+      <point x="1533.253" y="1589.915" />
+      <point x="1533.253" y="2075.859" />
+      <point x="-94.4996087445304" y="8.51852438905371" />
+    </edge>
+    <edge source="com.arch.intern.crm.backend.task.service.TaskService" target="com.arch.intern.crm.backend.common.interfeses.CrudService" relationship="REALIZATION">
+      <point x="-126.99986481596079" y="2.2002924947628344E-4" />
+      <point x="5708.0" y="743.562" />
+      <point x="5708.0" y="407.173" />
+      <point x="118.9995296826637" y="1.6269868666540788E-4" />
+    </edge>
+    <edge source="com.arch.intern.crm.backend.requests.model.dto.RequestDTO" target="com.arch.intern.crm.backend.common.abstractmodel.AbstractDTO" relationship="GENERALIZATION">
+      <point x="-1.4873407008053618E-4" y="-160.99989102408563" />
+      <point x="3464.599" y="1289.0" />
+      <point x="1872.0" y="1289.0" />
+      <point x="1872.0" y="1673.0" />
+      <point x="1483.4180000000001" y="1673.0" />
+      <point x="-3.190737090790208E-4" y="73.0" />
+    </edge>
+    <edge source="com.arch.intern.crm.backend.order.controller.ItemController" target="com.arch.intern.crm.backend.common.interfeses.BaseController" relationship="REALIZATION">
+      <point x="181.5" y="-3.6045510114490753E-4" />
+      <point x="1120.0" y="1751.733" />
+      <point x="1120.0" y="1181.387" />
+      <point x="113.5" y="4.909549738840724E-4" />
+    </edge>
+    <edge source="com.arch.intern.crm.backend.order.service.CategoryService" target="com.arch.intern.crm.backend.common.interfeses.CrudService" relationship="REALIZATION">
+      <point x="-139.5" y="1.8455950623774697E-4" />
+      <point x="5708.0" y="615.605" />
+      <point x="5708.0" y="407.173" />
+      <point x="118.9995296826637" y="1.6269868666540788E-4" />
+    </edge>
+    <edge source="com.arch.intern.crm.backend.requests.service.RequestService" target="com.arch.intern.crm.backend.requests.repository.RequestRepo" relationship="TO_ONE">
+      <point x="0.0" y="39.0" />
+      <point x="4415.428081962199" y="1277.5" />
+      <point x="2968.5" y="1277.5" />
+      <point x="2968.5" y="1809.6724130751188" />
+      <point x="2348.309298945176" y="1809.6724130751188" />
+      <point x="20.827053985214206" y="-14.5" />
+    </edge>
+    <edge source="com.arch.intern.crm.backend.board.service.BoardPresetService" target="com.arch.intern.crm.backend.board.repository.BoardPresetRepo" relationship="TO_ONE">
+      <point x="-147.5" y="0.0" />
+      <point x="2565.6488596735544" y="1206.8368528945552" />
+      <point x="2565.6488596735544" y="1910.9850318860492" />
+      <point x="80.0" y="0.0" />
+    </edge>
+    <edge source="com.arch.intern.crm.backend.client.model.Email" target="com.arch.intern.crm.backend.common.abstractmodel.AbstractEntity" relationship="GENERALIZATION">
+      <point x="93.0" y="-3.1816609896395676E-4" />
+      <point x="2627.0" y="568.963" />
+      <point x="2627.0" y="-37.0" />
+      <point x="5114.826" y="-37.0" />
+      <point x="-1.7652711903792806E-5" y="-184.0" />
+    </edge>
+    <edge source="com.arch.intern.crm.backend.board.controller.BoardPresetController" target="com.arch.intern.crm.backend.common.interfeses.BaseController" relationship="REALIZATION">
+      <point x="-2.9894517592765624E-4" y="83.99976568746433" />
+      <point x="2135.309" y="1904.0" />
+      <point x="1120.0" y="1904.0" />
+      <point x="1120.0" y="1181.387" />
+      <point x="113.5" y="4.909549738840724E-4" />
+    </edge>
+    <edge source="com.arch.intern.crm.backend.requests.model.RequestType" target="com.arch.intern.crm.backend.task.model.WorkFlow" relationship="TO_ONE">
+      <point x="0.0" y="-162.0" />
+      <point x="4533.0215707463685" y="501.0" />
+      <point x="3047.4203740531443" y="501.0" />
+      <point x="0.0" y="-140.0" />
+    </edge>
+    <edge source="com.arch.intern.crm.backend.requests.model.Request" target="com.arch.intern.crm.backend.requests.model.enums.Resolution" relationship="TO_ONE">
+      <point x="32.10949080342334" y="206.0" />
+      <point x="3711.33" y="989.0" />
+      <point x="3407.33" y="989.0" />
+      <point x="3407.33" y="1238.337" />
+      <point x="3658.0" y="1238.337" />
+      <point x="3658.0" y="1685.172" />
+      <point x="3564.106" y="1685.172" />
+      <point x="41.036654808734056" y="-49.99969896528546" />
+    </edge>
+    <edge source="com.arch.intern.crm.backend.task.controller.WorkFlowController" target="com.arch.intern.crm.backend.common.interfeses.BaseController" relationship="REALIZATION">
+      <point x="-178.83407599122347" y="-84.0" />
+      <point x="2979.4049999999997" y="1309.0" />
+      <point x="1887.0" y="1309.0" />
+      <point x="1887.0" y="1904.0" />
+      <point x="1120.0" y="1904.0" />
+      <point x="1120.0" y="1181.387" />
+      <point x="113.5" y="4.909549738840724E-4" />
+    </edge>
+    <edge source="com.arch.intern.crm.backend.order.model.Order" target="com.arch.intern.crm.backend.common.abstractmodel.AbstractEntity" relationship="GENERALIZATION">
+      <point x="-2.3320244031310722E-4" y="228.0" />
+      <point x="1915.6399999999999" y="1058.0" />
+      <point x="2627.0" y="1058.0" />
+      <point x="2627.0" y="-37.0" />
+      <point x="5114.826" y="-37.0" />
+      <point x="-1.7652711903792806E-5" y="-184.0" />
+    </edge>
+    <edge source="com.arch.intern.crm.backend.common.abstractmodel.AbstractEntity" target="com.arch.intern.crm.backend.auth.model.User" relationship="TO_ONE">
+      <point x="-88.0" y="-30.34316643239856" />
+      <point x="93.0" y="-109.94340807105891" />
+    </edge>
+    <edge source="com.arch.intern.crm.backend.requests.model.dto.RequestDTO" target="com.arch.intern.crm.backend.requests.model.enums.Resolution" relationship="TO_ONE">
+      <point x="123.99985126592992" y="1.0897591437242227E-4" />
+      <point x="3658.0" y="1489.016" />
+      <point x="3658.0" y="1685.172" />
+      <point x="3564.106" y="1685.172" />
+      <point x="41.036654808734056" y="-49.99969896528546" />
+    </edge>
+    <edge source="com.arch.intern.crm.backend.task.service.WorkFlowService" target="com.arch.intern.crm.backend.task.repository.WorkFlowRepo" relationship="TO_ONE">
+      <point x="142.0" y="0.0" />
+      <point x="3718.830494154642" y="1145.0780611273137" />
+      <point x="3718.830494154642" y="2181.1073451429356" />
+      <point x="1826.7055569983768" y="2181.1073451429356" />
+      <point x="-0.0" y="-14.5" />
+    </edge>
+    <edge source="com.arch.intern.crm.backend.task.model.dto.WorkFlowDTO" target="com.arch.intern.crm.backend.board.model.BoardPreset" relationship="TO_MANY">
+      <point x="-108.0" y="-3.931342241685343E-4" />
+      <point x="2959.0" y="1527.568" />
+      <point x="2959.0" y="1107.065" />
+      <point x="2583.604" y="1107.065" />
+      <point x="2583.604" y="719.463" />
+      <point x="93.0" y="113.4059621308736" />
+    </edge>
+    <edge source="com.arch.intern.crm.backend.order.model.Order" target="com.arch.intern.crm.backend.client.model.ContractorAddress" relationship="TO_ONE">
+      <point x="14.999766797559914" y="228.0" />
+      <point x="1930.64" y="1268.0" />
+      <point x="1915.64" y="1268.0" />
+      <point x="1915.64" y="1082.565" />
+      <point x="1095.0" y="1082.565" />
+      <point x="1095.0" y="806.004" />
+      <point x="-92.99953807502311" y="8.669599083077628E-7" />
+    </edge>
+    <edge source="com.arch.intern.crm.backend.order.controller.CartItemController" target="com.arch.intern.crm.backend.order.service.CartService" relationship="TO_ONE">
+      <point x="-8.135509917692616" y="-50.0" />
+      <point x="2569.5" y="1695.0" />
+      <point x="2534.943" y="1695.0" />
+      <point x="2534.943" y="1655.085" />
+      <point x="2939.982" y="1655.085" />
+      <point x="2939.982" y="1670.672" />
+      <point x="4718.362" y="1670.672" />
+      <point x="-136.31889367226813" y="84.0" />
+    </edge>
+    <edge source="com.arch.intern.crm.backend.order.service.ProductService" target="com.arch.intern.crm.backend.order.repository.ProductRepository" relationship="TO_ONE">
+      <point x="78.60777539042783" y="62.0" />
+      <point x="3231.6055196098787" y="1681.172" />
+      <point x="2954.5" y="1681.172" />
+      <point x="2954.5" y="2232.2881639944558" />
+      <point x="168.11149902288332" y="2232.2881639944558" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="com.arch.intern.crm.backend.auth.controller.UserController" target="com.arch.intern.crm.backend.auth.service.UserService" relationship="TO_ONE">
+      <point x="154.0" y="-33.08267448363017" />
+      <point x="5219.593361205227" y="1740.843386161065" />
+      <point x="17.021852541792214" y="39.0" />
+    </edge>
+    <edge source="com.arch.intern.crm.backend.client.controller.PersonController" target="com.arch.intern.crm.backend.common.interfeses.BaseController" relationship="REALIZATION">
+      <point x="-165.99965771446568" y="-2.8506003350717037" />
+      <point x="2267.482" y="2079.654" />
+      <point x="2267.482" y="2168.0" />
+      <point x="795.233" y="2168.0" />
+      <point x="795.233" y="1904.0" />
+      <point x="1120.0" y="1904.0" />
+      <point x="1120.0" y="1181.387" />
+      <point x="113.5" y="4.909549738840724E-4" />
+    </edge>
+    <edge source="com.arch.intern.crm.backend.requests.model.Request" target="com.arch.intern.crm.backend.requests.model.RequestType" relationship="TO_ONE">
+      <point x="62.10949080342334" y="206.0" />
+      <point x="3741.33" y="1095.0" />
+      <point x="4518.022" y="1095.0" />
+      <point x="-14.99957074636859" y="162.0" />
+    </edge>
+    <edge source="com.arch.intern.crm.backend.order.model.Order" target="com.arch.intern.crm.backend.requests.model.Request" relationship="TO_ONE">
+      <point x="-15.000233202440086" y="-227.99956107694612" />
+      <point x="1900.64" y="188.327" />
+      <point x="3216.394" y="188.327" />
+      <point x="3216.394" y="379.0" />
+      <point x="3679.221" y="379.0" />
+      <point x="4.908034234176739E-4" y="-205.99984518721237" />
+    </edge>
+    <edge source="com.arch.intern.crm.backend.task.model.dto.TaskDTO" target="com.arch.intern.crm.backend.common.abstractmodel.AbstractDTO" relationship="GENERALIZATION">
+      <point x="-4.839206108044891E-4" y="-128.99956568406287" />
+      <point x="2430.443" y="1328.0" />
+      <point x="1872.0" y="1328.0" />
+      <point x="1872.0" y="1673.0" />
+      <point x="1483.4180000000001" y="1673.0" />
+      <point x="-3.190737090790208E-4" y="73.0" />
+    </edge>
+    <edge source="com.arch.intern.crm.backend.notification.controller.NotificationController" target="com.arch.intern.crm.backend.common.interfeses.BaseController" relationship="REALIZATION">
+      <point x="-179.7688576806886" y="-84.0" />
+      <point x="5003.093" y="1309.0" />
+      <point x="1887.0" y="1309.0" />
+      <point x="1887.0" y="1904.0" />
+      <point x="1120.0" y="1904.0" />
+      <point x="1120.0" y="1181.387" />
+      <point x="113.5" y="4.909549738840724E-4" />
+    </edge>
+    <edge source="com.arch.intern.crm.backend.order.controller.ProductController" target="com.arch.intern.crm.backend.order.service.ProductService" relationship="TO_ONE">
+      <point x="0.0" y="-84.0" />
+      <point x="1327.9202672676042" y="1142.9481021071842" />
+      <point x="-136.0" y="0.0" />
+    </edge>
+    <edge source="com.arch.intern.crm.backend.client.model.dto.PersonDTO" target="com.arch.intern.crm.backend.client.model.Phone" relationship="TO_MANY">
+      <point x="-14.999565147094472" y="-116.9999177431946" />
+      <point x="911.538" y="1157.0" />
+      <point x="2075.245" y="1157.0" />
+      <point x="2075.245" y="-67.0" />
+      <point x="5291.345" y="-67.0" />
+      <point x="15.000393368197365" y="-139.99983428469875" />
+    </edge>
+    <edge source="com.arch.intern.crm.backend.client.service.PersonService" target="com.arch.intern.crm.backend.client.repository.PersonRepository" relationship="TO_ONE">
+      <point x="5.5" y="39.0" />
+      <point x="3979.696085214926" y="1698.926060644695" />
+      <point x="4177.108047035941" y="1698.926060644695" />
+      <point x="4177.108047035941" y="2335.408717546867" />
+      <point x="-175.2244651652063" y="2335.408717546867" />
+      <point x="-175.2244651652063" y="1734.9212210814726" />
+      <point x="-81.0" y="0.0" />
+    </edge>
+    <edge source="com.arch.intern.crm.backend.requests.model.RequestType" target="com.arch.intern.crm.backend.common.abstractmodel.AbstractEntity" relationship="GENERALIZATION">
+      <point x="4.292536305001704E-4" y="162.0" />
+      <point x="4533.022" y="1058.0" />
+      <point x="2627.0" y="1058.0" />
+      <point x="2627.0" y="-37.0" />
+      <point x="5114.826" y="-37.0" />
+      <point x="-1.7652711903792806E-5" y="-184.0" />
+    </edge>
+    <edge source="com.arch.intern.crm.backend.order.service.CartService" target="com.arch.intern.crm.backend.order.repository.OrderRepository" relationship="TO_ONE">
+      <point x="138.0" y="9.500326822333136" />
+      <point x="6219.34543924293" y="1190.237" />
+      <point x="6219.34543924293" y="2361.408717546867" />
+      <point x="1382.9297498753776" y="2361.408717546867" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="com.arch.intern.crm.backend.client.model.contractor.Contractor" target="com.arch.intern.crm.backend.client.model.Phone" relationship="TO_MANY">
+      <point x="58.67933213557694" y="161.99971305547433" />
+      <point x="941.538" y="1157.0" />
+      <point x="2075.245" y="1157.0" />
+      <point x="2075.245" y="-67.0" />
+      <point x="5291.345" y="-67.0" />
+      <point x="15.000393368197365" y="-139.99983428469875" />
+    </edge>
+    <edge source="com.arch.intern.crm.backend.order.model.dto.OrderItemDto" target="com.arch.intern.crm.backend.order.model.dto.PlainCartDto" relationship="TO_ONE">
+      <point x="58.498401793034645" y="-129.0" />
+      <point x="4162.236986255786" y="1338.5896160246175" />
+      <point x="5113.593361205227" y="1338.5896160246175" />
+      <point x="0.0" y="-129.0" />
+    </edge>
+    <edge source="com.arch.intern.crm.backend.board.model.BoardPreset" target="com.arch.intern.crm.backend.common.abstractmodel.AbstractEntity" relationship="GENERALIZATION">
+      <point x="93.0" y="98.4059621308736" />
+      <point x="2627.0" y="704.463" />
+      <point x="2627.0" y="-37.0" />
+      <point x="5114.826" y="-37.0" />
+      <point x="-1.7652711903792806E-5" y="-184.0" />
+    </edge>
+    <edge source="com.arch.intern.crm.backend.task.controller.TaskController" target="com.arch.intern.crm.backend.task.service.TaskService" relationship="TO_ONE">
+      <point x="6.633556381344533" y="84.0" />
+      <point x="3399.239075991223" y="2231.839039879358" />
+      <point x="6504.409268411145" y="2231.839039879358" />
+      <point x="6504.409268411145" y="743.5617799707505" />
+      <point x="127.0" y="0.0" />
+    </edge>
+    <edge source="com.arch.intern.crm.backend.order.model.OrderItem" target="com.arch.intern.crm.backend.common.abstractmodel.AbstractEntity" relationship="GENERALIZATION">
+      <point x="-108.5" y="-2.9862384474199644E-4" />
+      <point x="2627.0" y="866.85" />
+      <point x="2627.0" y="-37.0" />
+      <point x="5114.826" y="-37.0" />
+      <point x="-1.7652711903792806E-5" y="-184.0" />
+    </edge>
+    <edge source="com.arch.intern.crm.backend.task.model.WorkFlow" target="com.arch.intern.crm.backend.common.abstractmodel.AbstractEntity" relationship="GENERALIZATION">
+      <point x="-3.740531442417705E-4" y="140.0" />
+      <point x="3047.42" y="1058.0" />
+      <point x="2627.0" y="1058.0" />
+      <point x="2627.0" y="-37.0" />
+      <point x="5114.826" y="-37.0" />
+      <point x="-1.7652711903792806E-5" y="-184.0" />
+    </edge>
+    <edge source="com.arch.intern.crm.backend.order.model.Product" target="com.arch.intern.crm.backend.order.model.Category" relationship="TO_ONE">
+      <point x="-14.999986255786098" y="151.0" />
+      <point x="4250.737" y="1223.0" />
+      <point x="3367.894" y="1223.0" />
+      <point x="14.999895186263075" y="129.0" />
+    </edge>
+    <edge source="com.arch.intern.crm.backend.notification.model.dto.NotificationDTO" target="com.arch.intern.crm.backend.client.model.contractor.Contractor" relationship="TO_ONE">
+      <point x="-69.86960503842693" y="-95.0" />
+      <point x="3758.5" y="1409.5" />
+      <point x="3778.0" y="1409.5" />
+      <point x="3778.0" y="1012.0" />
+      <point x="3231.394" y="1012.0" />
+      <point x="3231.394" y="-52.0" />
+      <point x="882.859" y="-52.0" />
+      <point x="3.321355769685397E-4" y="-162.0" />
+    </edge>
+    <edge source="com.arch.intern.crm.backend.requests.model.RequestStatusLog" target="com.arch.intern.crm.backend.common.abstractmodel.AbstractEntity" relationship="GENERALIZATION">
+      <point x="-2.28399682782765E-4" y="183.99990180986242" />
+      <point x="3989.62" y="1058.0" />
+      <point x="2627.0" y="1058.0" />
+      <point x="2627.0" y="-37.0" />
+      <point x="5114.826" y="-37.0" />
+      <point x="-1.7652711903792806E-5" y="-184.0" />
+    </edge>
+    <edge source="com.arch.intern.crm.backend.board.model.BoardPreset" target="com.arch.intern.crm.backend.board.model.enums.BoardView" relationship="TO_ONE">
+      <point x="-77.29288091530725" y="161.99996213087366" />
+      <point x="2154.053" y="1117.0" />
+      <point x="1348.0" y="1117.0" />
+      <point x="1348.0" y="1589.915" />
+      <point x="1516.92" y="1589.915" />
+      <point x="1516.92" y="1988.84" />
+      <point x="94.49969500196244" y="-0.9029582974064851" />
+    </edge>
+    <edge source="com.arch.intern.crm.backend.auth.service.MailSender" target="com.arch.intern.crm.backend.config.ServerConfig" relationship="TO_ONE">
+      <point x="172.0" y="0.0" />
+      <point x="5337.470407295782" y="1727.6724130751188" />
+      <point x="0.0" y="73.0" />
+    </edge>
+    <edge source="com.arch.intern.crm.backend.order.model.Order" target="com.arch.intern.crm.backend.order.model.OrderItem" relationship="TO_MANY">
+      <point x="124.0" y="165.84827704433349" />
+      <point x="2416.5959481326986" y="816.8058381212796" />
+      <point x="2416.5959481326986" y="745.5570378691264" />
+      <point x="-108.5" y="-121.2932607547184" />
+    </edge>
+    <edge source="com.arch.intern.crm.backend.auth.controller.UserController" target="com.arch.intern.crm.backend.common.interfeses.BaseController" relationship="REALIZATION">
+      <point x="1.5759922189317876E-4" y="-84.0" />
+      <point x="4378.242" y="1309.0" />
+      <point x="1887.0" y="1309.0" />
+      <point x="1887.0" y="1904.0" />
+      <point x="1120.0" y="1904.0" />
+      <point x="1120.0" y="1181.387" />
+      <point x="113.5" y="4.909549738840724E-4" />
+    </edge>
+    <edge source="com.arch.intern.crm.backend.order.model.OrderItem" target="com.arch.intern.crm.backend.order.model.Order" relationship="TO_ONE">
+      <point x="-108.5" y="-106.2932607547184" />
+      <point x="2371.845880915307" y="760.5570378691264" />
+      <point x="2371.845880915307" y="801.8058381212796" />
+      <point x="124.0" y="150.84827704433349" />
+    </edge>
+    <edge source="com.arch.intern.crm.backend.order.controller.CategoryController" target="com.arch.intern.crm.backend.common.interfeses.BaseController" relationship="REALIZATION">
+      <point x="178.99975011910306" y="72.91630254411234" />
+      <point x="1120.0" y="1639.443" />
+      <point x="1120.0" y="1181.387" />
+      <point x="113.5" y="4.909549738840724E-4" />
+    </edge>
+    <edge source="com.arch.intern.crm.backend.order.model.dto.ProductDTO" target="com.arch.intern.crm.backend.common.abstractmodel.AbstractDTO" relationship="GENERALIZATION">
+      <point x="3.976899570261594E-4" y="-128.9999470600353" />
+      <point x="2825.1459999999997" y="1328.0" />
+      <point x="1872.0" y="1328.0" />
+      <point x="1872.0" y="1673.0" />
+      <point x="1483.4180000000001" y="1673.0" />
+      <point x="-3.190737090790208E-4" y="73.0" />
+    </edge>
+    <edge source="com.arch.intern.crm.backend.requests.model.RequestStatus" target="com.arch.intern.crm.backend.common.abstractmodel.AbstractEntity" relationship="GENERALIZATION">
+      <point x="1.901235614241159E-4" y="118.0" />
+      <point x="1565.435" y="1058.0" />
+      <point x="2627.0" y="1058.0" />
+      <point x="2627.0" y="-37.0" />
+      <point x="5114.826" y="-37.0" />
+      <point x="-1.7652711903792806E-5" y="-184.0" />
+    </edge>
+    <edge source="com.arch.intern.crm.backend.order.model.Order" target="com.arch.intern.crm.backend.client.model.contractor.Contractor" relationship="TO_ONE">
+      <point x="-2.3320244008573354E-4" y="-227.99956107694612" />
+      <point x="1915.64" y="203.327" />
+      <point x="2921.92" y="203.327" />
+      <point x="2921.92" y="1012.0" />
+      <point x="3231.394" y="1012.0" />
+      <point x="3231.394" y="-52.0" />
+      <point x="882.859" y="-52.0" />
+      <point x="3.321355769685397E-4" y="-162.0" />
+    </edge>
+    <edge source="com.arch.intern.crm.backend.client.model.contractor.Contractor" target="com.arch.intern.crm.backend.client.model.ContractorAddress" relationship="TO_MANY">
+      <point x="141.5" y="-2.8694452566924156E-4" />
+      <point x="1095.0" y="546.095" />
+      <point x="1095.0" y="806.004" />
+      <point x="-92.99953807502311" y="8.669599083077628E-7" />
+    </edge>
+    <edge source="com.arch.intern.crm.backend.order.service.CategoryService" target="com.arch.intern.crm.backend.order.repository.CategoryRepository" relationship="TO_ONE">
+      <point x="139.5" y="0.0" />
+      <point x="6879.381532127928" y="615.6048154404938" />
+      <point x="6879.381532127928" y="2246.839039879358" />
+      <point x="3374.739075991223" y="2246.839039879358" />
+      <point x="3374.739075991223" y="2144.5092297784295" />
+      <point x="3041.739075991223" y="2144.5092297784295" />
+      <point x="3041.739075991223" y="2268.2881639944558" />
+      <point x="-39.72446516520631" y="2268.2881639944558" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="com.arch.intern.crm.backend.order.controller.CartController" target="com.arch.intern.crm.backend.common.interfeses.BaseController" relationship="REALIZATION">
+      <point x="2.2162892651067523E-4" y="84.0" />
+      <point x="1708.2440000000001" y="1904.0" />
+      <point x="1120.0" y="1904.0" />
+      <point x="1120.0" y="1181.387" />
+      <point x="113.5" y="4.909549738840724E-4" />
+    </edge>
+    <edge source="com.arch.intern.crm.backend.requests.service.RequestService" target="com.arch.intern.crm.backend.common.interfeses.CrudService" relationship="REALIZATION">
+      <point x="-8.196219914680114E-5" y="-38.9998843751157" />
+      <point x="4415.428" y="1078.0" />
+      <point x="5044.610000000001" y="1078.0" />
+      <point x="5044.610000000001" y="998.685" />
+      <point x="5354.0" y="998.685" />
+      <point x="5354.0" y="789.0" />
+      <point x="5708.0" y="789.0" />
+      <point x="5708.0" y="407.173" />
+      <point x="118.9995296826637" y="1.6269868666540788E-4" />
+    </edge>
+    <edge source="com.arch.intern.crm.backend.client.model.dto.OrgatizationDTO" target="com.arch.intern.crm.backend.common.abstractmodel.AbstractDTO" relationship="GENERALIZATION">
+      <point x="-141.5" y="1.3159071272639267E-4" />
+      <point x="1872.0" y="1510.341" />
+      <point x="1872.0" y="1673.0" />
+      <point x="1483.4180000000001" y="1673.0" />
+      <point x="-3.190737090790208E-4" y="73.0" />
+    </edge>
+    <edge source="com.arch.intern.crm.backend.order.service.CategoryService" target="com.arch.intern.crm.backend.order.exception.ItemNotFoundException" relationship="CREATE">
+      <point x="-2.7961206251347903E-4" y="62.0" />
+      <point x="6190.764" y="919.428" />
+      <point x="5140.11" y="919.428" />
+      <point x="5140.11" y="949.428" />
+      <point x="6362.909" y="949.428" />
+      <point x="-2.6841114504350116E-4" y="-26.999786000819313" />
+    </edge>
+    <edge source="com.arch.intern.crm.backend.order.model.dto.ProductDTO" target="com.arch.intern.crm.backend.order.model.Category" relationship="TO_ONE">
+      <point x="68.3543976899573" y="-128.9999470600353" />
+      <point x="2893.5" y="1223.0" />
+      <point x="3367.894" y="1223.0" />
+      <point x="14.999895186263075" y="129.0" />
+    </edge>
+    <edge source="com.arch.intern.crm.backend.order.service.ItemService" target="com.arch.intern.crm.backend.order.repository.ItemRepository" relationship="TO_ONE">
+      <point x="0.0" y="62.0" />
+      <point x="2314.5533079117886" y="1670.6724130751188" />
+      <point x="2343.309298945176" y="1670.6724130751188" />
+      <point x="2343.309298945176" y="1972.5765089239949" />
+      <point x="2124.809" y="1972.5765089239949" />
+      <point x="-0.921161221620423" y="-14.5" />
+    </edge>
+    <edge source="com.arch.intern.crm.backend.client.model.contractor.Person" target="com.arch.intern.crm.backend.client.model.Passport" relationship="TO_MANY">
+      <point x="-93.0" y="0.0" />
+      <point x="-155.2244651652063" y="851.8160828443125" />
+      <point x="-155.2244651652063" y="2300.408717546867" />
+      <point x="6869.881532127928" y="2300.408717546867" />
+      <point x="6869.881532127928" y="928.928" />
+      <point x="93.0" y="128.49644080870712" />
+    </edge>
+    <edge source="com.arch.intern.crm.backend.requests.model.dto.RequestDTO" target="com.arch.intern.crm.backend.client.model.ContractorAddress" relationship="TO_ONE">
+      <point x="14.99985126592992" y="-160.99989102408563" />
+      <point x="3479.599" y="1268.0" />
+      <point x="1915.64" y="1268.0" />
+      <point x="1915.64" y="1082.565" />
+      <point x="1095.0" y="1082.565" />
+      <point x="1095.0" y="806.004" />
+      <point x="-92.99953807502311" y="8.669599083077628E-7" />
+    </edge>
+    <edge source="com.arch.intern.crm.backend.auth.model.User" target="com.arch.intern.crm.backend.auth.model.Role" relationship="TO_MANY">
+      <point x="93.0" y="-4.080710589278169E-4" />
+      <point x="1423.435" y="268.27" />
+      <point x="1423.435" y="1034.0" />
+      <point x="2498.104" y="1034.0" />
+      <point x="-4.0983602093547233E-4" y="107.0" />
+    </edge>
+    <edge source="com.arch.intern.crm.backend.auth.controller.UserController" target="com.arch.intern.crm.backend.auth.model.mapper.UserMapper" relationship="TO_ONE">
+      <point x="-127.03105618272093" y="84.0" />
+      <point x="4251.210786218057" y="2116.339039879358" />
+      <point x="5329.231405433853" y="2116.339039879358" />
+      <point x="0.0" y="38.0" />
+    </edge>
+    <edge source="com.arch.intern.crm.backend.auth.service.UserService" target="com.arch.intern.crm.backend.auth.repository.UserRepo" relationship="TO_ONE">
+      <point x="127.0" y="14.99966305516341" />
+      <point x="5942.451036216514" y="1070.185" />
+      <point x="5942.451036216514" y="1785.5281373981416" />
+      <point x="116.0" y="0.0" />
+    </edge>
+    <edge source="com.arch.intern.crm.backend.client.controller.PersonController" target="com.arch.intern.crm.backend.client.model.mapper.PersonMapper" relationship="TO_ONE">
+      <point x="-0.0" y="84.0" />
+      <point x="2710.988657714466" y="2173.8059727390037" />
+      <point x="4945.777501534316" y="2173.8059727390037" />
+      <point x="-0.0" y="37.99999999999977" />
+    </edge>
+    <edge source="com.arch.intern.crm.backend.task.controller.WorkFlowController" target="com.arch.intern.crm.backend.task.service.WorkFlowService" relationship="TO_ONE">
+      <point x="0.0" y="-84.0" />
+      <point x="3158.239075991223" y="1696.172" />
+      <point x="3301.997744219451" y="1696.172" />
+      <point x="3301.997744219451" y="1139.0780611273137" />
+      <point x="-142.0" y="-6.0" />
+    </edge>
+    <edge source="com.arch.intern.crm.backend.notification.service.NotificationService" target="com.arch.intern.crm.backend.notification.repository.NotificationRepo" relationship="TO_ONE">
+      <point x="0.0" y="39.0" />
+      <point x="6497.930988312765" y="2068.35900335066" />
+      <point x="891.7331760954557" y="2068.35900335066" />
+      <point x="2.2737367544323206E-13" y="14.500000000000227" />
+    </edge>
+    <edge source="com.arch.intern.crm.backend.task.model.dto.WorkFlowDTO" target="com.arch.intern.crm.backend.common.abstractmodel.AbstractDTO" relationship="GENERALIZATION">
+      <point x="-2.98016476790508E-4" y="-129.0" />
+      <point x="3104.905" y="1328.0" />
+      <point x="1872.0" y="1328.0" />
+      <point x="1872.0" y="1673.0" />
+      <point x="1483.4180000000001" y="1673.0" />
+      <point x="-3.190737090790208E-4" y="73.0" />
+    </edge>
+    <edge source="com.arch.intern.crm.backend.notification.model.Notification" target="com.arch.intern.crm.backend.common.abstractmodel.AbstractEntity" relationship="GENERALIZATION">
+      <point x="2.7367122675059363E-4" y="140.0" />
+      <point x="5029.610000000001" y="1058.0" />
+      <point x="2627.0" y="1058.0" />
+      <point x="2627.0" y="-37.0" />
+      <point x="5114.826" y="-37.0" />
+      <point x="-1.7652711903792806E-5" y="-184.0" />
+    </edge>
+    <edge source="com.arch.intern.crm.backend.order.service.CartService" target="com.arch.intern.crm.backend.order.exception.CartNotFoundException" relationship="CREATE">
+      <point x="138.0" y="-31.98133565422927" />
+      <point x="6692.431" y="1148.7553375234377" />
+      <point x="52.639805185860496" y="-27.0" />
+    </edge>
+    <edge source="com.arch.intern.crm.backend.requests.model.RequestStatusLog" target="com.arch.intern.crm.backend.requests.model.RequestStatus" relationship="TO_ONE">
+      <point x="-99.5" y="-9.819013757805806E-5" />
+      <point x="3823.0" y="774.328" />
+      <point x="3823.0" y="744.369" />
+      <point x="3848.696" y="744.369" />
+      <point x="3848.696" y="173.327" />
+      <point x="1565.435" y="173.327" />
+      <point x="1.901235614241159E-4" y="-117.99966429915116" />
+    </edge>
+    <edge source="com.arch.intern.crm.backend.requests.model.Request" target="com.arch.intern.crm.backend.common.abstractmodel.AbstractEntity" relationship="GENERALIZATION">
+      <point x="4.908034234176739E-4" y="206.0" />
+      <point x="3679.221" y="1058.0" />
+      <point x="2627.0" y="1058.0" />
+      <point x="2627.0" y="-37.0" />
+      <point x="5114.826" y="-37.0" />
+      <point x="-1.7652711903792806E-5" y="-184.0" />
+    </edge>
+    <edge source="com.arch.intern.crm.backend.auth.model.User" target="com.arch.intern.crm.backend.common.abstractmodel.AbstractEntity" relationship="GENERALIZATION">
+      <point x="1.4642749579252268E-4" y="-283.0" />
+      <point x="1216.477" y="-37.0" />
+      <point x="5114.826" y="-37.0" />
+      <point x="-1.7652711903792806E-5" y="-184.0" />
+    </edge>
+    <edge source="com.arch.intern.crm.backend.requests.model.dto.RequestDTO" target="com.arch.intern.crm.backend.requests.model.RequestType" relationship="TO_ONE">
+      <point x="123.99985126592992" y="-94.5158910240857" />
+      <point x="3758.5" y="1394.5" />
+      <point x="3758.5" y="1095.0" />
+      <point x="4518.022" y="1095.0" />
+      <point x="-14.99957074636859" y="162.0" />
+    </edge>
+    <edge source="com.arch.intern.crm.backend.task.model.dto.TaskDTO" target="com.arch.intern.crm.backend.notification.model.Notification" relationship="TO_MANY">
+      <point x="101.4995160793892" y="104.44243431593713" />
+      <point x="2942.42" y="1627.527" />
+      <point x="2942.42" y="1022.5" />
+      <point x="2911.42" y="1022.5" />
+      <point x="2911.42" y="479.0" />
+      <point x="5029.61" y="479.0" />
+      <point x="2.7367122584109893E-4" y="-139.99970732790007" />
+    </edge>
+    <edge source="com.arch.intern.crm.backend.requests.model.dto.RequestDTO" target="com.arch.intern.crm.backend.client.model.contractor.Contractor" relationship="TO_ONE">
+      <point x="123.99985126592992" y="-79.5158910240857" />
+      <point x="3778.0" y="1409.5" />
+      <point x="3778.0" y="1012.0" />
+      <point x="3231.394" y="1012.0" />
+      <point x="3231.394" y="-52.0" />
+      <point x="882.859" y="-52.0" />
+      <point x="3.321355769685397E-4" y="-162.0" />
+    </edge>
+    <edge source="com.arch.intern.crm.backend.order.model.dto.OrderItemDto" target="com.arch.intern.crm.backend.common.abstractmodel.AbstractDTO" relationship="GENERALIZATION">
+      <point x="4.155372480454389E-4" y="-128.99978670682822" />
+      <point x="4103.739" y="1289.0" />
+      <point x="1872.0" y="1289.0" />
+      <point x="1872.0" y="1673.0" />
+      <point x="1483.4180000000001" y="1673.0" />
+      <point x="-3.190737090790208E-4" y="73.0" />
+    </edge>
+    <edge source="com.arch.intern.crm.backend.order.model.dto.CartDto" target="com.arch.intern.crm.backend.common.abstractmodel.AbstractDTO" relationship="GENERALIZATION">
+      <point x="105.49991247302171" y="-18.330683563557614" />
+      <point x="1642.575" y="1298.615" />
+      <point x="1642.575" y="1673.0" />
+      <point x="1483.4180000000001" y="1673.0" />
+      <point x="-3.190737090790208E-4" y="73.0" />
+    </edge>
+    <edge source="com.arch.intern.crm.backend.order.service.ItemService" target="com.arch.intern.crm.backend.order.exception.ItemNotFoundException" relationship="CREATE">
+      <point x="142.9996920882113" y="-15.000111944511218" />
+      <point x="2899.146" y="1122.065" />
+      <point x="2899.146" y="531.0" />
+      <point x="5140.11" y="531.0" />
+      <point x="5140.11" y="949.428" />
+      <point x="6362.909" y="949.428" />
+      <point x="-2.6841114504350116E-4" y="-26.999786000819313" />
+    </edge>
+    <edge source="com.arch.intern.crm.backend.requests.model.Request" target="com.arch.intern.crm.backend.client.model.contractor.Contractor" relationship="TO_ONE">
+      <point x="-14.999509196576582" y="206.0" />
+      <point x="3664.221" y="1012.0" />
+      <point x="3231.394" y="1012.0" />
+      <point x="3231.394" y="-52.0" />
+      <point x="882.859" y="-52.0" />
+      <point x="3.321355769685397E-4" y="-162.0" />
+    </edge>
+    <edge source="com.arch.intern.crm.backend.order.service.CartService" target="com.arch.intern.crm.backend.order.service.ItemService" relationship="TO_ONE">
+      <point x="138.0" y="3.2682233313607867E-4" />
+      <point x="6677.431" y="1180.737" />
+      <point x="6677.431" y="-97.0" />
+      <point x="1045.0" y="-97.0" />
+      <point x="1045.0" y="1100.0" />
+      <point x="2090.245" y="1100.0" />
+      <point x="2090.245" y="1132.0" />
+      <point x="-143.0" y="-5.065111944511273" />
+    </edge>
+    <edge source="com.arch.intern.crm.backend.client.model.dto.PersonDTO" target="com.arch.intern.crm.backend.client.model.Email" relationship="TO_MANY">
+      <point x="4.34852905527805E-4" y="-116.9999177431946" />
+      <point x="926.538" y="1132.0" />
+      <point x="2057.14" y="1132.0" />
+      <point x="2057.14" y="405.458" />
+      <point x="2502.096" y="405.458" />
+      <point x="5.1867301408492494E-5" y="-118.0" />
+    </edge>
+    <edge source="com.arch.intern.crm.backend.task.model.Task" target="com.arch.intern.crm.backend.task.model.enums.TaskStatus" relationship="TO_ONE">
+      <point x="0.0" y="-206.0" />
+      <point x="2770.6965312224957" y="72.17016643239856" />
+      <point x="3504.3941048137367" y="72.17016643239856" />
+      <point x="3504.3941048137367" y="-52.0" />
+      <point x="7134.921480355696" y="-52.0" />
+      <point x="7134.921480355696" y="2309.908717546867" />
+      <point x="1918.2055569983768" y="2309.908717546867" />
+      <point x="24.246000888029357" y="61.0" />
+    </edge>
+    <edge source="com.arch.intern.crm.backend.client.model.dto.PersonDTO" target="com.arch.intern.crm.backend.client.model.ContractorAddress" relationship="TO_MANY">
+      <point x="141.5" y="8.225680539908353E-5" />
+      <point x="1095.0" y="1433.115" />
+      <point x="1095.0" y="806.004" />
+      <point x="-92.99953807502311" y="8.669599083077628E-7" />
+    </edge>
+    <edge source="com.arch.intern.crm.backend.order.service.ProductService" target="com.arch.intern.crm.backend.common.interfeses.CrudService" relationship="REALIZATION">
+      <point x="2.5578054919606075E-4" y="-62.0" />
+      <point x="3152.998" y="1033.0" />
+      <point x="5044.610000000001" y="1033.0" />
+      <point x="5044.610000000001" y="998.685" />
+      <point x="5354.0" y="998.685" />
+      <point x="5354.0" y="789.0" />
+      <point x="5708.0" y="789.0" />
+      <point x="5708.0" y="407.173" />
+      <point x="118.9995296826637" y="1.6269868666540788E-4" />
+    </edge>
+    <edge source="com.arch.intern.crm.backend.client.model.contractor.Organization" target="com.arch.intern.crm.backend.client.model.contractor.Contractor" relationship="GENERALIZATION">
+      <point x="-92.9999992199489" y="-2.5882050636027998E-5" />
+      <point x="653.0" y="976.799" />
+      <point x="653.0" y="546.095" />
+      <point x="-141.49966786442303" y="-2.8694452566924156E-4" />
+    </edge>
+    <edge source="com.arch.intern.crm.backend.order.model.Order" target="com.arch.intern.crm.backend.order.model.enums.OrderStatus" relationship="TO_ONE">
+      <point x="14.999766797559914" y="-228.0" />
+      <point x="1930.64" y="-67.0" />
+      <point x="-145.7244651652063" y="-67.0" />
+      <point x="-145.7244651652063" y="1982.7106290037975" />
+      <point x="-97.0" y="0.0" />
+    </edge>
+    <edge source="com.arch.intern.crm.backend.client.model.dto.PersonDTO" target="com.arch.intern.crm.backend.client.model.ContractorType" relationship="TO_ONE">
+      <point x="15.000434852905528" y="-116.9999177431946" />
+      <point x="941.538" y="1228.446" />
+      <point x="1060.0" y="1228.446" />
+      <point x="1060.0" y="-82.0" />
+      <point x="6662.431" y="-82.0" />
+      <point x="6662.431" y="1272.743" />
+      <point x="106.5" y="-2.4865552973096783E-4" />
+    </edge>
+    <edge source="com.arch.intern.crm.backend.notification.controller.NotificationController" target="com.arch.intern.crm.backend.notification.service.NotificationService" relationship="TO_ONE">
+      <point x="194.0" y="3.1847512370766253" />
+      <point x="6513.909268411145" y="1841.0281373981416" />
+      <point x="15.9782800983794" y="39.0" />
+    </edge>
+    <edge source="com.arch.intern.crm.backend.notification.model.Notification" target="com.arch.intern.crm.backend.client.model.contractor.Contractor" relationship="TO_ONE">
+      <point x="-92.99972632877416" y="-133.2917073279001" />
+      <point x="4379.737" y="572.828" />
+      <point x="4379.737" y="1012.0" />
+      <point x="3231.394" y="1012.0" />
+      <point x="3231.394" y="-52.0" />
+      <point x="882.859" y="-52.0" />
+      <point x="3.321355769685397E-4" y="-162.0" />
+    </edge>
+    <edge source="com.arch.intern.crm.backend.client.service.OrganizationService" target="com.arch.intern.crm.backend.client.repository.OrganizationRepository" relationship="TO_ONE">
+      <point x="150.0" y="0.0" />
+      <point x="7016.921480355696" y="862.9280592583813" />
+      <point x="0.0" y="-14.5" />
+    </edge>
+    <edge source="com.arch.intern.crm.backend.board.service.BoardPresetService" target="com.arch.intern.crm.backend.common.interfeses.CrudService" relationship="REALIZATION">
+      <point x="147.5" y="-9.388852894555157" />
+      <point x="2914.1459999999997" y="1197.448" />
+      <point x="2914.1459999999997" y="1033.0" />
+      <point x="5044.610000000001" y="1033.0" />
+      <point x="5044.610000000001" y="998.685" />
+      <point x="5354.0" y="998.685" />
+      <point x="5354.0" y="789.0" />
+      <point x="5708.0" y="789.0" />
+      <point x="5708.0" y="407.173" />
+      <point x="118.9995296826637" y="1.6269868666540788E-4" />
+    </edge>
+    <edge source="com.arch.intern.crm.backend.requests.model.Request" target="com.arch.intern.crm.backend.requests.model.RequestStatus" relationship="TO_ONE">
+      <point x="124.0" y="1.5481278762763395E-4" />
+      <point x="3823.0" y="759.369" />
+      <point x="3823.0" y="744.369" />
+      <point x="3848.696" y="744.369" />
+      <point x="3848.696" y="173.327" />
+      <point x="1565.435" y="173.327" />
+      <point x="1.901235614241159E-4" y="-117.99966429915116" />
+    </edge>
+    <edge source="com.arch.intern.crm.backend.notification.service.NotificationService" target="com.arch.intern.crm.backend.common.interfeses.CrudService" relationship="REALIZATION">
+      <point x="-146.9999883127657" y="4.408978157357524E-4" />
+      <point x="5708.0" y="407.211" />
+      <point x="5708.0" y="407.173" />
+      <point x="118.9995296826637" y="1.6269868666540788E-4" />
+    </edge>
+    <edge source="com.arch.intern.crm.backend.auth.service.UserService" target="com.arch.intern.crm.backend.common.interfeses.CrudService" relationship="REALIZATION">
+      <point x="127.0" y="-3.369448365901917E-4" />
+      <point x="5354.0" y="1055.185" />
+      <point x="5354.0" y="789.0" />
+      <point x="5708.0" y="789.0" />
+      <point x="5708.0" y="407.173" />
+      <point x="118.9995296826637" y="1.6269868666540788E-4" />
+    </edge>
+    <edge source="com.arch.intern.crm.backend.requests.model.RequestStatusLog" target="com.arch.intern.crm.backend.requests.model.Request" relationship="TO_ONE">
+      <point x="-2.28399682782765E-4" y="-184.0" />
+      <point x="3989.62" y="379.0" />
+      <point x="3679.221" y="379.0" />
+      <point x="4.908034234176739E-4" y="-205.99984518721237" />
+    </edge>
+    <edge source="com.arch.intern.crm.backend.client.model.Phone" target="com.arch.intern.crm.backend.common.abstractmodel.AbstractEntity" relationship="GENERALIZATION">
+      <point x="3.9336819736490725E-4" y="-139.9998342846987" />
+      <point x="5276.345" y="-37.0" />
+      <point x="5114.826" y="-37.0" />
+      <point x="-1.7652711903792806E-5" y="-184.0" />
+    </edge>
+    <edge source="com.arch.intern.crm.backend.requests.model.RequestStatus" target="com.arch.intern.crm.backend.requests.model.enums.RequestStatusType" relationship="TO_ONE">
+      <point x="-124.5" y="-79.93966516611101" />
+      <point x="1109.0418406640392" y="609.0039991330401" />
+      <point x="1109.0418406640392" y="-27.72959192894109" />
+      <point x="-186.2244651652063" y="-27.72959192894109" />
+      <point x="-186.2244651652063" y="2253.2881639944558" />
+      <point x="-115.5" y="14.879446447588634" />
+    </edge>
+    <edge source="com.arch.intern.crm.backend.requests.model.dto.RequestDTO" target="com.arch.intern.crm.backend.requests.model.RequestStatus" relationship="TO_ONE">
+      <point x="123.99985126592992" y="158.25210897591433" />
+      <point x="3927.37" y="1647.268" />
+      <point x="3927.37" y="1207.34" />
+      <point x="3823.0" y="1207.34" />
+      <point x="3823.0" y="744.369" />
+      <point x="3848.696" y="744.369" />
+      <point x="3848.696" y="173.327" />
+      <point x="1565.435" y="173.327" />
+      <point x="1.901235614241159E-4" y="-117.99966429915116" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic" zoom="0.21210801393728224" showDependencies="true" x="5611.0" y="2168.5" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Constructors</Category>
+    <Category>Fields</Category>
+    <Category>Inner Classes</Category>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

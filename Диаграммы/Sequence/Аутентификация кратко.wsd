@@ -1,0 +1,62 @@
+@startuml Аутентификация кратко
+
+
+skinparam Participansubsidydding 20
+skinparam BoxPadding 20
+autonumber
+
+box "Потребитель"
+    actor "Пользователь" as user
+end box
+
+box "IAM"
+    participant "NGINX Openidc" as nginx_openidc
+    participant "Keycloak" as Keycloak
+end box
+
+box "Прикладной сервис"
+    participant "Прикладной сервис" as custom_service
+end box
+
+
+== Доступ к защищенным ресурсам без пройденной аутентификации ==
+
+user -> nginx_openidc: Доступ к ресурсу /login/
+activate user
+activate nginx_openidc
+user <- nginx_openidc: Необходима аутентификация. Редирект в Keycloak
+deactivate nginx_openidc
+
+user -> Keycloak: Аутентификационные данные
+activate Keycloak
+Keycloak -> Keycloak: Аутентификация
+user <- Keycloak: Редирект в NGINX Openidc
+deactivate Keycloak
+
+user -> nginx_openidc: Завершение аутентификации
+activate nginx_openidc
+nginx_openidc <-> Keycloak: Обмен авторизационного токена Keycloak на id, access и refresh токены (JWT)
+nginx_openidc -> nginx_openidc: Шифрование токенов в аутентификационную cookie
+user <- nginx_openidc: Редирект в Прикладной сервис
+deactivate nginx_openidc
+
+
+== Доступ к защищенным ресурсам (API) с пройденной аутентификацией ==
+
+
+user -> nginx_openidc: Запрос в прикладной сервис
+activate nginx_openidc
+nginx_openidc -> nginx_openidc: Проверка сессии (cookie)
+nginx_openidc -> custom_service: Проксирование запроса
+activate custom_service
+custom_service <-> Keycloak: Получение UserInfo
+custom_service -> custom_service: Внутренняя бизнес-логика
+nginx_openidc <- custom_service: Ответ с ресурсами (проксирование)
+deactivate custom_service
+user <- nginx_openidc: Ответ с ресурсами (проксирование)
+deactivate nginx_openidc
+
+deactivate user
+
+
+@enduml

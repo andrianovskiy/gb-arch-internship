@@ -1,0 +1,177 @@
+@startuml Аутентификация и авторизация через NGINX openidc, Keycloak и ЕСИА
+
+
+skinparam Participansubsidydding 20
+skinparam BoxPadding 20
+autonumber
+
+box "Потребитель"
+    actor "Пользователь" as user
+    participant "Браузер" as browser
+end box
+
+box "IAM"
+    participant "NGINX Openidc" as nginx_openidc
+    participant "Keycloak" as Keycloak
+end box
+
+box "Прикладной сервис"
+    participant "JWT Filter" as JWT_FILTER
+    participant "Прикладной код" as custom_service
+end box
+
+box "Frontend"
+    participant "Frontend" as frontend
+end box
+
+
+== Доступ к публичным ресурсам (анонимный доступ) ==
+
+
+user -> browser: Перейти на публичный ресурс
+activate user
+activate browser
+browser -> nginx_openidc: Доступ к публичному ресурсу
+activate nginx_openidc
+nginx_openidc -> nginx_openidc: Проверка ресурса на анонимный доступ
+note right
+Ресурс не требует аутентификации
+end note
+nginx_openidc <-> frontend: Проксирование к публичному ресурсу
+browser <- nginx_openidc: Публичные ресурсы (проксирование)
+deactivate nginx_openidc
+user <- browser: Отображение публичных ресурсов
+deactivate browser
+deactivate user
+
+== Доступ к защищенным ресурсам без аутентификации ==
+
+
+user -> browser: Войти через Госуслуги (кнопка)
+activate user
+note right
+Фактически, это доступ к защищенному ресурсу /login/
+end note
+activate browser
+browser -> nginx_openidc: Доступ к ресурсу /login/
+activate nginx_openidc
+nginx_openidc -> nginx_openidc: Проверка ресурса на анонимный доступ
+note right
+Ресурс требует аутентификации
+end note
+nginx_openidc -> nginx_openidc: Проверка аутентификационных cookie
+note right
+Cookie отсутствует
+end note
+browser <- nginx_openidc: Необходима аутентификация. Редирект в Keycloak
+note right
+1. В cookie SESSION шифруется информация о ресурсе,
+к которому пытались получить доступ (/login/).
+2. Редирект URL /auth/realms/{REALM}/protocol/openid-connect/auth?...
+В параметрах передаются:
+* client_id - название клиента NGINX в Keyclok;
+* redirect_uri - endpoint в NGINX: /openid-connect-auth/redirect_uri;
+* scope - набор доступов, который запрашивает NGINX у Keycloak: openid;
+* и другие (response_type, state).
+end note
+deactivate nginx_openidc
+
+
+== Аутентификация в IAM ==
+
+
+browser -> Keycloak: Доступ к ресурсу /auth/realms/{REALM}/protocol/openid-connect/auth?...
+activate Keycloak
+browser <- Keycloak: Страница для аутентификации
+browser -> user: Отображение страницы для аутентификации
+user -> browser: Ввод пары логин-пароль
+browser -> Keycloak: Передача аутентификационных данных /auth/realms/{REALM}/login-actions/authenticate
+browser <- Keycloak: В случае успеха редирект в NGINX Openidc
+note right
+Редирект URL /openid-connect-auth/redirect_uri?...
+Тот самый URL, который передавался в redirect_uri при редиректе в Keycloak.
+В параметрах передаются:
+* code - авторизационный код Keycloak;
+* и другие параметры (state, session_state).
+end note
+deactivate Keycloak
+
+
+== Завершение аутентификации ==
+
+
+browser -> nginx_openidc: Доступ к ресурсу /openid-connect-auth/redirect_uri?...
+activate nginx_openidc
+nginx_openidc <-> Keycloak: Обмен авторизационного токена Keycloak на id, access и refresh токены (JWT)
+nginx_openidc -> nginx_openidc: Шифрование токенов в аутентификационную cookie
+browser <- nginx_openidc: Редирект на /login/ (информация из SESSION).\nset-cookie: SESSION=...
+deactivate nginx_openidc
+
+
+== Доступ к защищенным ресурсам (статика) с аутентификацией ==
+
+
+browser -> nginx_openidc: Доступ к ресурсу /login/
+activate nginx_openidc
+nginx_openidc -> nginx_openidc: Расшифровка cookie SESSION
+nginx_openidc <-> Keycloak: Запрос публичного ключа для проверки подписи JWT токенов\nGET /auth/realms/{REALM}
+note right
+Публичный ключ кешируется
+end note
+nginx_openidc -> nginx_openidc: Проверка действительности токенов
+note right
+Токен действителен
+end note
+nginx_openidc <-> frontend: Проксирование за ресурсом /login/
+note right
+При проксировании удаляются cookie SESSION,
+но добавляется загаловок Authorization: bearer {ACCESS JWT}
+end note
+browser <- nginx_openidc: Статические ресурсы /login/ - SPA-приложение со своей логикой (проксирование)
+deactivate nginx_openidc
+
+
+== Доступ к защищенным ресурсам (API) с аутентификацией ==
+
+
+browser -> nginx_openidc: Доступ к ресурсу /api/v1/*
+activate nginx_openidc
+nginx_openidc -> nginx_openidc: Расшифровка cookie SESSION
+nginx_openidc -> nginx_openidc: Чтение публичного ключа для проверки подписи JWT токенов из кеша
+nginx_openidc -> nginx_openidc: Проверка действительности токенов
+opt "Протух" access токен или подошло время обновить cookie SESSION
+    nginx_openidc <-> Keycloak: Обновление ID, access токенов по refresh\nPOST /auth/realms/{REALM}/protocol/openid-connect/token
+end
+opt "Протух" access и refresh токены
+    browser <- nginx_openidc: ошибка 401
+    user <- browser: Отображение ошибки 401 с предложением повторно пройти процедуру аутентификации
+end
+nginx_openidc -> JWT_FILTER: Проксирование за ресурсом /api/v1/*
+note right
+При проксировании удаляются cookie SESSION,
+но добавляется загаловок Authorization: bearer {ACCESS JWT}
+end note
+activate JWT_FILTER
+JWT_FILTER -> JWT_FILTER: Проверка необходимости авторизованного доступа к ресурсу
+JWT_FILTER <-> Keycloak: Запрос публичного ключа для проверки подписи JWT токена\nGET /auth/realms/{REALM}
+note right
+Публичный ключ кешируется
+end note
+JWT_FILTER -> JWT_FILTER: Проверка наличия и действительности JWT токена
+JWT_FILTER -> custom_service: Передача управления
+deactivate JWT_FILTER
+activate custom_service
+custom_service -> custom_service: Внутренняя бизнес-логика
+nginx_openidc <- custom_service: Ответ с ресурсами /api/v1/* (проксирование)
+deactivate custom_service
+opt Была замена access токена
+    nginx_openidc -> nginx_openidc: Расчет новой cookie SESSION и добавление к ответу set-cookie
+end
+browser <- nginx_openidc: Ответ с ресурсами /api/v1/* (проксирование)
+deactivate nginx_openidc
+user <- browser: Отображение данных на SPA
+deactivate browser
+deactivate user
+
+
+@enduml
